@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap3网站实例</title> 
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/pattern.css"/>
+    <script type="text/javascript" src="../dist/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navHeigh">
+        <div class="container">
+           <div class="row turn-block">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="./image/church-logo.png" height="45px"></a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">HOME <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Home Default</a></li>
+                            <li><a href="#">Home Animated Silder</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ABOUT<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle open" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">MINISTRY <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Childrens Ministry</a></li>
+                            <li><a href="#">Student Ministry</a></li>
+                            <li><a href="#">Groups</a></li>
+                            <li role="separator" class="divider"></li>
+                
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">SERMONS <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Christ-Occupied</a></li>
+                            <li><a href="#">God's Love</a></li>
+                            <li><a href="#">faithfuless</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Praise Him</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">PAGES <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Image Gallery</a></li>
+                            <li><a href="#">Video Galllery</a></li>
+                            <li><a href="#">Blog List</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </div>
+    </nav>
+
+<!--section2-->
+   <div id="carousel-example-generic" class="carousel slide turnFor" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+    
+        
+        <div class="carousel-inner  carousel-section2" role="listbox">
+            <div class="item active">
+                <img src="./image/1.jpg" class="img-responsive" alt="Responsive image" >
+                <div class="carousel-caption captionSide ">
+                   <h3>EXPERIENCE GOD'S</h3>
+                   <h1>UNCEASING<br>
+                     PROVISION
+                   </h1>
+                   <button>JOIN US →</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./image/2.jpg " class="img-responsive" alt="Responsive image">
+                <div class="carousel-caption captionSide">
+                  <h3>Waves of Grace</h3>
+                  <p>Receive the unceasing wave after wave,after wave,after wave of Grace God has for you.</p>
+                  <button>LEARN MORE →</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./image/3.jpg" class="img-responsive" alt="Responsive image" >
+                <div class="carousel-caption captionSide">
+                    <h3>Grace and Truth</h3>
+                    <p>For God did not send his Son into the world to condemn the world,but to save the world through him. John 3:17
+                    </p>
+                    <button>BROWSE GALLERY →</button>
+                </div>
+            </div>
+        </div>
+      
+    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+<!--section3-->
+    <div class="container">
+      <div class="row hang">
+        <div class="col-md-4 col-sm-6  has-margin-bottom ">
+          <img src="./image/4.jpg" class="img-responsive" alt="Responsive image">
+          <h3>GUIDED BY THE HOLY SPIRIT</h3>
+          <p>Experience God's Wisdom each day as you are lead by the Holy Spirit. Walk effortlessly into success and happiness and
+        understand the Father's love for you.</p>
+          <div>
+            <a>View details →</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 has-margin-bottom" >
+          <img src="./image/5.jpg" class="img-responsive" alt="Responsive image">
+          <h3>LAW DEMANDS GRACE SUPPLIES</h3>
+          <p>Jesus came and fulfilled the laws,the only one who could keep the laws so that in Him we can be made righteous and not
+        have to suffer death for our sins.</p>
+          <div>
+            <a>View details →</a>
+           </div>
+        </div>
+        <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 has-margin-bottom ">
+          <img src="./image/6.jpg" class="img-responsive" alt="Responsive image">
+          <h3>CHRIST OCCUPIED</h3>
+          <p>It may sound good to Mankind to be self-occupied. But God wants you to be Christ-Occupied and receive all of your
+        blessings through resting in the work of Jesus.</p>
+          <div>
+            <a>View details →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--section4-->
+    <div class="container container-section3">
+      <div class="row row-section3">
+        <div class="col-md-3 col-sm-6">
+          <div class="left-title">LATEST BULLETIN</div>
+          <div class="mark-block"></div>
+          <img src="./image/7.jpg" class="img-responsive section3-img" alt="Responsive image">
+          <img src="./image/8.jpg" class="img-responsive section3-img" alt="Responsive image">
+        </div>
+        <div class="col-md-6 ">
+          <div class="col-on ">
+            <h3>Perseverance of the Saints</h3>
+            <p>on 17th June 2014 by <span class="style-orange">Vincent John</span></p>
+            <p class="p2">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum
+              sem,ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet...</p>
+            <button>READ ARTICLE →</button>
+          </div>
+          <div class="col-down">
+            <h3>Lord is Sufficient for all of our needs</h3>
+            <p>on 17th June 2014 by <sapn class="style-orange">Jose Mathew</sapn></p>
+            <p class="p2">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum
+            sem,ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet...</p>
+            <button>READ ARTICLE →</button>
+          </div>
+        </div>
+        <div class="col-md-3 third-right">
+          <div>
+            <div class="aside-right">RECENT SERMONS</div>
+            <div class="mark-block"></div>
+          </div>
+          <img src="./image/9.jpg" class="img-responsive right-picture" alt="Responsive image">
+          <div class="place-detail">
+            <a href="#" class="group-item">
+                <p class="group-title">Heavens and the earth</p>
+                <p class="group-time">24:15 mins</p>
+            </a>
+            <a href="#" class="group-item">
+                <p class="group-title">Prayer and petition</p>
+                <p class="group-time">12:00 mins</p>
+            </a>
+            <a href="#" class="group-item">
+                <p class="group-title">Fruit of the Spirit</p>
+                <p class="group-time">30:25 mins</p>
+            </a>
+            <a href="#" class="group-item">
+                <p class="group-title">list-group-item-heading</p>
+                <p class="group-time">17:00 mins</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--section5-->
+    <div class="container grace-section">
+      <div class="grance-heading">
+        <div class="grance-title">GRACE OUTREACH</div>
+      </div>
+      <div class="row-section5 clearfix">
+        <div class="grace-pic">
+          <img src="./image/girl.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="grace-core-text">
+          <div class="core-title">Help human trafficking survivors</div>
+          <div class="small-detail">Posted by <span class="style-reverse">Stevenon</span> Aug 11 2014</div>
+          <div class="core-num">$6560.00</div>
+          <div class="small-detail">Pledged of $15000 goal</div>
+          <div class="viewdata">
+            <div class="inner-view">60%</div>
+          </div>
+          <div class="categori-item">
+            <div class="item-num">24</div>
+            <div>Backers</div>
+          </div>
+          <div class="categori-item">
+            <div class="item-num">17</div>
+            <div>Days left</div>
+          </div>
+        </div>
+        <div class="button"><a href="#">Donate Now →</a></div>
+      </div>
+    </div>
+
+<!--section6-->
+    <div class="container gallery">
+      <div class="gallery-title">OUR GALLERY</div>
+      <div class="row row-gallery">
+        <div class="col-md-3">
+          <img src="./image/gallery1.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery2.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery3.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery4.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./image/gallery5.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery6.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery7.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-md-3">
+          <img src="./image/gallery8.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+
+<!--section7-->
+    <div id="carousel-example-generic" class="carousel slide carousel-section7" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-title">BIBLE VERSES</div>
+        <div class="item active">
+          <div class="container para">
+            <p>For God so loved the world that he gave his one and only begotten Son,that who ever believes in him shall not perish but
+            have eternal life</p>
+            <small>— John 3:16(KJV)</small>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container para">
+            <p>For if,by the trespass of the one man,death reigned through that one man,how much more will those who receive God's
+            abundant provision of grace!</p> 
+            <small>— Romans 5:17 (NIV)</small>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container para">
+            <p>For God did not send his Son into the world to condemn the world, but to save the world through him.</p>
+            <small>— John 3:17</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--section8-->
+
+    <div class="container ministires">
+      <div class="ministries-title">OUR MINISTRIES</div>
+      <div class="row hang">
+        <div class="col-md-4 col-sm-6  has-margin-bottom ">
+          <img src="./image/minisi1.jpg" class="img-responsive" alt="Responsive image">
+          <h3>YOU CANNOT, BUT GOD CAN</h3>
+          <p>The world says that blood and sweat equals success. But we can rest in Jesus' finished work at the cross because of His
+          blood,sweat,tears...</p>
+          <div>
+            <a>Read more →</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 has-margin-bottom">
+          <img src="./image/minisi2.jpg" class="img-responsive" alt="Responsive image">
+          <h3>DELIGHT YOURSELF IN LORD</h3>
+          <p>When we rest in the Lord and draw from His Word every day,we have the confidence in knowing our Father has already
+          opened doors...</p>
+          <div>
+            <a>Read more →</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 has-margin-bottom ">
+          <img src="./image/minisi3.jpg" class="img-responsive" alt="Responsive image">
+          <h3>FAITH DEVELOPS PERSEREVANCE</h3>
+          <p>Through these he has given us his very great and precious promises,so that through them you may participate in the
+          divine nature...</p>
+          <div>
+            <a>Read more →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--section9-->
+    <div class="sub-email">
+      <div class="container">
+        <div class="infora col-md-3">
+          <div class="subscribe">SUBSCRIBE</div>
+          <div class="news">TO OUR NEWSLETTER</div>
+        </div>
+        <div class="Emai col-md-6">
+          <input type="text" placeholder="Enter email" />
+        </div>
+        <div class="btns col-md-3">Subscribe Now →</div>
+      </div>
+    </div>
+
+<!--section10-->
+    <div class="footer">
+      <div class="footer-content container">
+        <div class="row content-items">
+          <div class="col-md-3">
+            <div class="item-title">
+              ABOUT THE CHURCH
+            </div>
+            <div class="item-core">For the word of God is living and active. Sharper than any double-edged sword,it penetrates even to dividing soul and
+            spirit,joints and marrow;it judges the thoughts and attitudes.</div>
+          </div>
+          <div class="col-md-3">
+            <div class="item-title">
+              QUICK LINKS
+            </div>
+            <div class="item-core">
+              <div class="link-item"><a href="#">Upcoming events</a></div>
+              <div class="link-item" ><a href="#">Ministries</a></div>
+              <div class="link-item"><a href="#">Recent Sermons</a></div>
+              <div class="link-item"><a href="#">Contact us</a></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item-title">
+              OUR ADDRESS
+            </div>
+            <div class="item-core">
+              <div class="address-item">
+                Catholic Church
+              </div>
+              <div class="address-item">
+                121 King Street,Melbourne
+              </div>
+              <div class="address-item">
+                Victoria 3000 Australia
+              </div><br/>
+              <div class="address-item">
+                Phone:+61 3 8376 6284
+              </div>
+              <div class="address-item">
+                Email:<a href="#">mail@catholicwebsite.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item-title">
+              CONNECT
+            </div>
+            <div class="item-core">
+              <a href="#fb"><img src="./image/fb.png"/></a>
+              <a href="#fb"><img src="./image/tw.png"/></a>
+              <a href="#fb"><img src="./image/in.png"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        Copyright © 2014 All rights reserved
+      </div>
+    </div>
+  </body>
+</html>
